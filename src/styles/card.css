@@ -5,6 +5,19 @@
     color:black;
 }
 
+.card__badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ff6347; /* Rojo para indicar oferta */
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-bottom-right-radius: 8px;
+    z-index: 1;
+}
+
 .card__image{
     width: 100%;
 }
@@ -22,6 +35,13 @@
     margin-top: .75rem;
     margin-bottom: 1rem;
     color: #505050;
+}
+
+.card__price--old {
+    font-size: 1rem;
+    color: #a0a0a0;
+    text-decoration: line-through;
+    margin-right: 10px;
 }
 
 .card__price{
