@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import "../styles/Header.css";
+import "../styles/header.css";
 import logo from '../assets/img/logo.webp'
 import { links } from "../helper/utils";
 
