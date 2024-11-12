@@ -1,0 +1,13 @@
+.about{
+    color: white;
+    padding: 4rem 0;
+}
+
+.about__text{
+    font-size: 1.25rem;
+    font-weight: 200;
+    max-width: 70ch;
+    text-align: center;
+    margin: 4rem auto 0;
+
+}

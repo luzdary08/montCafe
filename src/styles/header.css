@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Junge&family=Outfit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --ff-junge:"Junge";
+    --ff-allura:"Allura";
+    --ff-outfit:"Outfit";
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    color:white;
+    animation: animation-scroll linear;
+    animation-timeline: scroll();
+}
+
+@keyframes animation-scroll{
+    to{
+        background-color: black;
+        color: white;
+        backdrop-filter: blur(10px);
+    }
+}
+
+.header__body{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header__nav a{
+    text-transform: capitalize;
+    padding:.75rem .25rem;
+    font-size: 1rem;
+    position: relative;
+    font-weight: 200;
+}
+
+
+.header__nav a::after{
+    content: ''; 
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    border-radius: 3px;
+    transition: all 0.4s ease;
+}
+
+.header__nav a:hover::after, .header__nav a.active::after{
+    width: 100%;
+    left: 0;
+}

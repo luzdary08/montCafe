@@ -1,0 +1,35 @@
+.subtitle{
+    font-family: var(--ff-junge);
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #F8F8E9;
+    width: max-content;
+    position: relative;
+}
+
+.subtitle::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    background-color: white;
+    width: 7rem;
+    left: 105%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.subtitle.center{
+    margin: 0 auto;
+}
+
+.subtitle.center::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    background-color: white;
+    width: 7rem;
+    right: 105%;
+    top: 50%;
+    transform: translateY(-50%);
+}
