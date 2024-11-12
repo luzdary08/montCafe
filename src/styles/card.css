@@ -37,14 +37,14 @@
     color: #505050;
 }
 
-.card__price--old {
+.card__price__old {
     font-size: 1rem;
     color: #a0a0a0;
     text-decoration: line-through;
     margin-right: 10px;
 }
 
-.card__price{
+.card__price__new{
     font-size: 2rem;
     font-weight: 500;
 }
