@@ -25,7 +25,7 @@
     margin: 4rem auto 0;
     max-width: 500px;
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr;
     gap: 1rem;
 }
 
@@ -38,6 +38,35 @@
     color: white;
     padding: 0 1rem;
 }
+
+.contact__textarea {
+    height: 150px;
+    resize: vertical;
+    background-color: #252525;
+    font-family: inherit;
+    border: none;
+    color: white;
+    padding: 1rem;
+    outline: none;
+}
+
+.contact__textarea::placeholder {
+    font-family: inherit;
+    opacity: 0.9;
+    color: #D1D1CF;
+
+}
+
+.contact_text{
+    height: 56px;
+    background-color: #252525;
+    font-family: inherit;
+    border: 0;
+    outline: 0;
+    color: white;
+    padding: 0 1rem;
+}
+
 .contact__input::placeholder{
     color: rgb(197, 197, 197);
 }

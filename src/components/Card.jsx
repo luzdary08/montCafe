@@ -4,6 +4,7 @@ import '../styles/card.css'
 export default function Card() {
     return (
         <article className="card">
+            <div className="card_badge">¡Oferta Especial!</div>
             <figure className="card__figure">
                 <img className="card__image" src={pastel} alt="" loading="lazy" />
             </figure>

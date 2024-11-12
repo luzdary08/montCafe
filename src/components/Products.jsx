@@ -19,7 +19,7 @@ export default function Products() {
                 <div className="products__body">
                     <div className="products__heading">
                         <div>
-                            <Subtitle>nuestos productos</Subtitle>
+                            <Subtitle>Promociones y Descuentos</Subtitle>
                             <p>We come with a choice of coffee for coffee lovers. With coffee taken from the best place and mixed by the owner.</p>
                         </div>
                         <div className="products__navegation">
