@@ -9,5 +9,11 @@
     max-width: 70ch;
     text-align: center;
     margin: 4rem auto 0;
+}
 
+@media screen and (width <= 640px){
+    .about__text{
+        font-size: 1rem;
+        margin: 2rem 0;
+    }
 }

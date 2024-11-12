@@ -2,7 +2,7 @@ import Subtitle from "./Subtitle"
 import '../styles/contact.css'
 export default function contact() {
   return (
-    <div className="contact">
+    <div className="contact section section--5">
         <div className="container">
           <div className="contact__body">
             <Subtitle position="center">Contacto</Subtitle>

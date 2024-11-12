@@ -3,7 +3,7 @@ import "../styles/hero.css";
 
 export default function Hero() {
   return (
-    <div className="hero">
+    <div className="hero section section--1">
         <div className="container">
             <div className="hero__body">
                 <h3> El mejor café</h3>

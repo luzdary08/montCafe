@@ -7,6 +7,8 @@ import Categories from "./components/Categories";
 import Contact from "./components/Contact";
 import { Header } from "./components/Header";
 import Testimonials from './components/Testimonials';
+import Information from './components/Information';
+import Footer from './components/Footer';
 function App() {
 
   return (
@@ -18,6 +20,8 @@ function App() {
       <Categories />
       <Contact />
       <Testimonials />
+      <Information />
+      <Footer />
     </>
   )
 }

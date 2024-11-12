@@ -20,6 +20,7 @@
     margin: 0 auto;
 }
 
+
 .contact__form{
     margin: 4rem auto 0;
     max-width: 500px;
@@ -49,4 +50,17 @@
     font-size: 1rem;
     border: 0;
     outline: 0;
+}
+
+
+@media screen and (width <= 640px){
+    .contact__subtitle{
+        font-size: 1rem;
+    }
+    .contact__title{
+        font-size: 1.5rem;
+    }
+    .contact__form{
+        grid-template-columns: 1fr;
+    }
 }

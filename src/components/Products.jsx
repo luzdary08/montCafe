@@ -11,10 +11,10 @@ import { Navigation, Pagination } from 'swiper/modules';
 import { useRef } from 'react'
 export default function Products() {
 
-    const swiperRef = useRef();
+    const swiperRef = useRef(); // obtiene el elemento HTML de swiper
 
     return (
-        <div className="products">
+        <div className="products section section--2">
             <div className="container">
                 <div className="products__body">
                     <div className="products__heading">
@@ -43,8 +43,17 @@ export default function Products() {
                             modules={[Pagination,Navigation]}
                             className='products__swiper mySwiper'
                             spaceBetween={18}
-                            slidesPerView={3}
-            
+                            breakpoints={{
+                                320: {
+                                  slidesPerView: 1,
+                                },
+                                768: {
+                                  slidesPerView: 2,
+                                },
+                                1024: {
+                                  slidesPerView: 3,
+                                },
+                              }}
                             onBeforeInit={(swiper) => {
                                 swiperRef.current = swiper;
                               }}

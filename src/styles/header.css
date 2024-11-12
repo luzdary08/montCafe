@@ -16,6 +16,12 @@
     animation-timeline: scroll();
 }
 
+@media screen and (width <= 768px){
+    .header{
+        display: none;
+    }
+}
+
 @keyframes animation-scroll{
     to{
         background-color: black;
@@ -31,6 +37,10 @@
     justify-content: space-between;
 }
 
+.header__body img{
+    max-width: 50px;
+}
+
 .header__nav{
     display: flex;
     align-items: center;
@@ -43,6 +53,7 @@
     font-size: 1rem;
     position: relative;
     font-weight: 200;
+    cursor: pointer;
 }
 
 

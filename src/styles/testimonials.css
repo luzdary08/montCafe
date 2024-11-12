@@ -16,10 +16,9 @@
     grid-template-columns: repeat(3,1fr);
 }
 
-
 .testimonials__card{
     background-color: #1E1E1E;
-    padding:2rem 2rem;
+    padding:2rem ;
 }
 
 .testimonials__name{
@@ -62,5 +61,18 @@
 .star{
     color: white;
     width: 1rem;  
+}
+
+
+@media screen and (width <= 768px){
+    .testimonials__cards{
+        grid-template-columns: 1fr;
+    }
+    .testimonials__text {
+        font-size: 1rem;
+    }
+    .testimonials__card{
+        padding: 1.5rem;
+    }
 }
 

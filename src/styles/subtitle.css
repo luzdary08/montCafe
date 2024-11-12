@@ -8,6 +8,19 @@
     position: relative;
 }
 
+
+@media screen and (width <= 768px){
+    .subtitle{
+        font-size: 2rem;
+    }
+}
+@media screen and (width <= 640px){
+    .subtitle{
+        font-size: 1.125rem;
+    }
+    
+}
+
 .subtitle::after{
     content: '';
     position: absolute;

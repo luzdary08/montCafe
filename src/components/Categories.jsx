@@ -6,7 +6,7 @@ import Category from "./Category"
 
 export default function Categories() {
   return (
-    <div className="categories">
+    <div className="categories section section--4">
       <div className="container">
         <div className="categories__body">
           <Subtitle position="center">Categorias</Subtitle>

@@ -12,7 +12,10 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    gap: 1.5rem;
 }
+
+
 
 .products h2{
     margin-bottom: 1rem;
@@ -23,6 +26,14 @@
 
 .products__cards{
    position: relative;
+}
+@media screen and (width <= 640px){
+    .products__heading{
+        flex-direction: column;
+    }
+    .products p{
+      font-size: 1rem;
+    } 
 }
 
 
@@ -36,6 +47,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .products__navegation{

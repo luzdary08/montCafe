@@ -12,10 +12,10 @@ export default function Testimonial() {
         <article className="testimonials__card">
             <div className="testimonials__stars">
                 {
-                    numberStar.map(number => {
+                    numberStar.map((number,i) => {
                         
-                        if (number === n) return <Star className="star" />
-                        return  <Star className="star" fill='white' />
+                        if (number === n) return <Star key={i} className="star" />
+                        return  <Star key={i} className="star" fill='white' />
 
                     } )
                 }

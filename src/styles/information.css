@@ -1,0 +1,44 @@
+.information{
+    padding: 10rem 0;
+    background-image: linear-gradient(to right, #00000000,#000), url('../assets/img/cafe.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.information__body{
+    width:50%;
+    margin-left: auto;
+    display: grid;
+    gap: 2.5rem;
+}
+
+.information__item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.information__circle{
+    width: 4rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background-color: #1E1E1E;
+}
+
+
+
+@media screen and (width <= 768px){
+    .information__body{
+        width: 100%;
+    }
+    .information{
+        background-image: linear-gradient(to right, #0000009d,#0000009d), url('../assets/img/cafe.png');
+    }
+    .information__item{
+        flex-direction: column;
+        text-align: center;
+    }
+}
